@@ -1,0 +1,21 @@
+<prompt>
+<purpose>Calculate how much disposable income the USER has available for potential 
+
+<input>
+<income>User's monthly income in USD: << income>></income>
+<expenses>User's monthly expenses in USD: << expenses>></expenses>
+</input>
+
+<calculation>
+Based on this information, calculate how much disposable income the USER has available for potential investment each month.
+</calculation>
+</prompt>
+
+<action>Execute the calculation and return the result in the following JSON format:
+{
+
+"prompt_1_result": {
+"disposable_income": [calculated amount]
+
+}
+}</action>

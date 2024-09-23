@@ -1,0 +1,27 @@
+<prompt>
+<purpose>Recommend investment allocation for the user investment_vision based on disposable income </purpose>
+
+<input>
+<disposable_income>User's monthly disposable income in USD: << user_funds>></disposable_income>
+</input>
+
+<calculation>
+Based on the user's disposable income of USD << user_funds>>, calculate and recommend percentage allocation for investment
+User's Investment Vision: << investment_vision>>
+
+Create a portfolio that ALWAYS ALLIGNS and FITS with the user's investment vision, including the amount of money to allocate to each category
+</calculation>
+</prompt>
+
+<action>Execute the prompt and return the results in the following JSON format:
+{
+"prompt_2_result": {
+	"recommended_allocation": {
+	"[investment_category]": {
+	"percentage": [percentage],
+	"amount_usd": [amount] 
+	},
+...
+	}
+	}
+}</action>

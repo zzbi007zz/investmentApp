@@ -1,0 +1,31 @@
+<prompt>
+<purpose>Recommend specific detailed investment vehicles based on the user's recommended portfolio strategy</purpose>
+
+<input>
+<user_portfolio_strategy>User's current portfolio strategy: << user_portfolio_strategy: <<user_portfolio_strategy>></user_portfolio_strategy
+</input>
+
+<calculation>
+Based on the user's portfolio strategy, provide specific investment recommendation.Consider the following categories: 
+
+1. Equities (e.g., individual stocks, sector-specific ETFs)
+2. Funds (e.g., mutual funds, index funds)
+3. Bonds (e.g., government bonds, corporate bonds)
+4. Real Estate (e.g., REITs)
+5. Commodities (e.g., gold, silver ETFs)
+6. Cash and Cash Equivalents (e.g., high-yield savings accounts, money market fu
+7. Cryptocurrencies (e.g., Bitcoin, Ethereum, Dogecoin)
+8. Alternative Investments (e.g., art, collectibles, private equity)
+9. Side Hustles (e.g., rental income, freelance work)
+10. Self Improvement (e.g., education, certifications)
+11. Retirement Accounts (e.g., 401(k), IRA)
+12. Gambling (e.g., casinos, sports betting)
+13. Other Investments that FIT the user's investment vision
+
+For each recommended investment, provide:
+- The Specific Name of the investment (e.g., Apple, Bitcoin, "start a YouTube chanel")
+- The Type of investment (e.g., "YOLO Options Play", "Meme Stock", "Leveraged ET
+- Brief explanation of why it fits the user's profile
+- Suggested allocation percentage and amount of money to allocate
+</calculation>
+</prompt>
